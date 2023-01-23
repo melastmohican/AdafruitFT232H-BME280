@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "adafruitft232h-bme280"
+version = "0.1.0"
+description = ""
+authors = ["Mariusz Jurgielewicz <mordor@mail.com>"]
+readme = "README.md"
+packages = [{include = "adafruitft232h_bme280"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyftdi = "^0.54.0"
+board = "^1.0"
+adafruit-circuitpython-bme280 = "^2.6.19"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
